@@ -15,22 +15,12 @@ Data which was used:
 
 
 
-## Instructions to download the data set using your Kaggle API credentials. 
-Based on the recommended way to create the repository by ChatGPT i downloaded the dataset into Cursor using my Kaggle credentials as the files were too large to upload into GitHub.
+## Instructions to download the data set. 
+Based on the recommended way to create the repository by ChatGPT i downloaded the dataset into Cursor using my Kaggle credentials as the files were too large to upload into GitHub. ChatGPT is able to provide a detailed step-by-step guide on how to download using your Kaggle API credentials.
 
-The files can also be downloaded directly from Kaggle and saved on your local drive.  
-  
-1.) Install the Kaggle API using pip install kaggle
+The files can also be downloaded directly from Kaggle and saved on your local drive
 
-2.) Download your Kaggle API ( Click on profile picture → Account → scroll down to API). A file named kaggle.json will be downloaded. 
-
-3.) Place the Kaggle API in your systems default location ( This was done automatically by opening it if using Cursor)
-
-4.) Open a terminal and run - kaggle competitions download -c store-sales-time-series-forecasting -p data/
-
-6.) Unzip the files 
-
-7.) Load the data into your project
+https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
   
 ## Project Approach and updates
 
