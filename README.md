@@ -15,7 +15,7 @@ Data which was used:
 
 
 ## Instructions to download the data set using your Kaggle API credentials. 
-Based on the recommended way to create the repository by ChatGPT i worked on the data i downloaded the dataset using my Kaggle credentials.
+Based on the recommended way to create the repository by ChatGPT i downloaded the dataset using my Kaggle credentials as the files were too large to upload into GitHub
   
 1.) Install the Kaggle API using pip install kaggle
 
@@ -31,7 +31,7 @@ Based on the recommended way to create the repository by ChatGPT i worked on the
   
 ## Project Approach
 
-1.) I started by ensuring the data was set up correctly and all recommended packages were installed. 
+1.) I started by ensuring the data was set up correctly in the correct format and all recommended packages were installed in my notebook.
 
 2.) Explored the data in the notebooks
 - I then explored the data, to see if there was any direct correlation between the oil price and sales as well as correlation between promotions on sales. (Refer to Data Exploration folder) 
