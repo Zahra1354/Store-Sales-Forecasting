@@ -18,7 +18,7 @@ Data which was used:
 ## Instructions to download the data set. 
 Based on the recommended way to create the repository by ChatGPT i downloaded the dataset into Cursor using my Kaggle credentials as the files were too large to upload into GitHub. ChatGPT is able to provide a detailed step-by-step guide on how to download using your Kaggle API credentials.
 
-The files can also be downloaded directly from Kaggle and saved on your local drive
+The files can also be downloaded directly from Kaggle and place the files inside a /data folder in the repository.
 
 https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
   
