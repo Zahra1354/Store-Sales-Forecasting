@@ -1,52 +1,60 @@
 # Store Sales Forecasting
 
-A machine learning project for forecasting store sales using time series analysis and external factors.
+Project for forecasting store sales using time series analysis and external factors.
 
 ## Dataset
 
-This project uses the [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting) dataset from Kaggle, which includes:
+This project uses the [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting) dataset from Kaggle
+Data which was used:
 
-- **train.csv** - Training data with sales information
-- **test.csv** - Test data for predictions
-- **stores.csv** - Store information and metadata
+- **train.csv** - Training data with sales information for a period up until 15 August 2017
+- **test.csv** - Test data which includes the dates which need to be predicted (16 August 2017 - 31 August 2017)
 - **oil.csv** - Daily oil price data (external factor)
-- **holidays_events.csv** - Holiday and event information
-- **transactions.csv** - Transaction data per store
 - **sample_submission.csv** - Example submission format
 
-## Setup
 
-1. Install required packages:
-```bash
-pip install -r requirements.txt
-```
 
-2. Set up Kaggle API credentials:
-   - Download your `kaggle.json` file from Kaggle
-   - Place it in `~/.kaggle/` directory
-   - Run the download script to get the dataset
+## Instructions to download the data set using your Kaggle API credentials. 
+Based on the recommended way to create the repository by ChatGPT i worked on the data i downloaded the dataset using my Kaggle credentials.
+  
+1.) Install the Kaggle API using pip install kaggle
 
-## Project Structure
+2.) Download your Kaggle API ( Click on profile picture → Account → scroll down to API). A file named kaggle.json will be downloaded. 
 
-```
-├── data/                   # Dataset files
-├── notebooks/              # Jupyter notebooks for analysis
-├── src/                    # Source code
-├── models/                 # Trained models
-├── requirements.txt        # Python dependencies
-└── README.md              # This file
-```
+3.) Place the Kaggle API in your systems default location ( This was done automatically by opening it if using Cursor)
 
-## Getting Started
+4.) Open a terminal and run - kaggle competitions download -c store-sales-time-series-forecasting -p data/
 
-1. Download the dataset using your Kaggle credentials
-2. Explore the data in the notebooks
-3. Build and train forecasting models
-4. Generate predictions for the test set
+6.) Unzip the files 
 
-## Features
+7.) Load the data into your project
+  
+## Project Approach
 
-- Time series forecasting with external factors
-- Store-specific sales patterns
-- Holiday and event impact analysis
-- Oil price correlation analysis
+1.) I started by ensuring the data was set up correctly and all recommended packages were installed. 
+
+2.) Explored the data in the notebooks
+- I then explored the data, to see if there was any direct correlation between the oil price and sales as well as correlation between promotions on sales. (Refer to Data Exploration folder) 
+- Whilst there was some correlation these did not seem to have a significant impact and for the purpose of this submission i chose to ignore this data. ( I plan on incorporating this at a later stage)
+  
+3.) Used rolling avergages to create predictions - Used a 28 rolling average
+   
+4.) Generated predictions for holdout data (Period 1 August 2017 - 15 August 2017) to test the model.
+   
+5.) Created prediction for test set (Period 16 August 2017 - 31 August 2017)
+
+6.) Submitted project on Kaggle
+
+## Next Steps/Improving the forecast
+
+1.) Incorporate Additional Features
+
+Oil prices – Sales may be influenced by changes in fuel cost and transportation.
+
+Holiday and special events – Certain holidays or promotions can significantly impact sales.
+
+Store-level promotions – Items on promotion often see increased sales.
+
+2.) Advanced Time Series Models
+
+Using ARIMA Models that capture trends, seasonality, and autocorrelation in the sales data.
