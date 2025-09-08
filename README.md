@@ -45,6 +45,20 @@ Based on the recommended way to create the repository by ChatGPT i worked on the
 
 6.) Submitted project on Kaggle
 
+## Next Steps/Improving the forecast
+
+1.) Incorporate Additional Features
+
+Oil prices – Sales may be influenced by changes in fuel cost and transportation.
+
+Holiday and special events – Certain holidays or promotions can significantly impact sales.
+
+Store-level promotions – Items on promotion often see increased sales.
+
+2.) Advanced Time Series Models
+
+Using ARIMA Models that capture trends, seasonality, and autocorrelation in the sales data.
+
 ## Project Structure
 
 ```
