@@ -38,15 +38,15 @@ Based on the recommended way to create the repository by ChatGPT i downloaded th
 - I then explored the data, to see if there was any direct correlation between the oil price and sales as well as correlation between promotions on sales. (Refer to Data Exploration folder in notebook) 
 - Whilst there was some correlation these did not seem to have a significant impact and for the purpose of this submission i chose to ignore this data. ( I plan on incorporating this at a later stage)
   
-3.) Used rolling averages to create predictions - Used a 28 rolling average i created the predicted sales.
+3.) Used rolling averages to create predictions - Used a 28 rolling average to create the predicted sales in the sales_pred column.
    
 4.) Tested the model by generating predictions for holdout data and comparing against the actual data in training data (Holdout Period = 1 August 2017 - 15 August 2017). Used the Kaggle evaluation metric and got a Validation RMSLE: 0.5151455759803385 
    
-5.) Created prediction for test set (Period 16 August 2017 - 31 August 2017) 
+5.) Created prediction for test set which is the data for which the sales need to be predicted (Period 16 August 2017 - 31 August 2017) and created a CSV file in the competition submission format. 
 
-6.) Submitted 1st version of project on Kaggle (1st submission had a RMSLE of 1.16668). The higher RMSLE was as a result of the 31 August 2017 not having any data in my 1st submission. 
+6.) Submitted 1st version of project on Kaggle (1st submission had a RMSLE of 1.16668). Through investigation i determined that the higher RMSLE was as a result of the 31 August 2017 not having any data in my 1st submission. 
 
-7.) Updated code and submitted 2nd version on Kaggle with a RMSLE of 0.46618. Ranked 89 on the leaderboard. 
+7.) Updated code to include data for 31 August 2017 and submitted 2nd version on Kaggle with a RMSLE of 0.46618. Ranked 89 on the leaderboard. 
 
 ## Next Steps/Improving the forecast
 
