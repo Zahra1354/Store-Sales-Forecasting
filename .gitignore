@@ -4,6 +4,7 @@ kaggle.json
 
 # Data files
 data/
+submission.csv
 
 # Python
 __pycache__/
