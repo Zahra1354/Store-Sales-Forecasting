@@ -16,7 +16,9 @@ Data which was used:
 
 
 ## Instructions to download the data set using your Kaggle API credentials. 
-Based on the recommended way to create the repository by ChatGPT i downloaded the dataset using my Kaggle credentials as the files were too large to upload into GitHub
+Based on the recommended way to create the repository by ChatGPT i downloaded the dataset into Cursor using my Kaggle credentials as the files were too large to upload into GitHub.
+
+The files can also be downloaded directly from Kaggle and saved on your local drive.  
   
 1.) Install the Kaggle API using pip install kaggle
 
