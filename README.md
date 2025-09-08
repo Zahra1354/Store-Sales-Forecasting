@@ -48,6 +48,9 @@ Based on the recommended way to create the repository by ChatGPT i downloaded th
 
 7.) Updated code to include data for 31 August 2017 and submitted 2nd version on Kaggle with a RMSLE of 0.46618. Ranked 89 on the leaderboard. 
 
+<img width="697" height="118" alt="image" src="https://github.com/user-attachments/assets/915403b2-ab5d-4168-bc03-cc359df96a19" />
+
+
 ## Next Steps/Improving the forecast
 
 1.) Incorporate Additional Features
