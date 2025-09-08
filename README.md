@@ -38,7 +38,7 @@ Based on the recommended way to create the repository by ChatGPT i downloaded th
 - I then explored the data, to see if there was any direct correlation between the oil price and sales as well as correlation between promotions on sales. (Refer to Data Exploration folder in notebook) 
 - Whilst there was some correlation these did not seem to have a significant impact and for the purpose of this submission i chose to ignore this data. ( I plan on incorporating this at a later stage)
   
-3.) Used rolling avergages to create predictions - Used a 28 rolling average i created the predicted sales.
+3.) Used rolling averages to create predictions - Used a 28 rolling average i created the predicted sales.
    
 4.) Tested the model by generating predictions for holdout data and comparing against the actual data in training data (Holdout Period = 1 August 2017 - 15 August 2017). Used the Kaggle evaluation metric and got a Validation RMSLE: 0.5151455759803385 
    
