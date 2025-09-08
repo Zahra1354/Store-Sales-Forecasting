@@ -1,6 +1,6 @@
 # Store Sales Forecasting
 
-A machine learning project for forecasting store sales using time series analysis and external factors.
+Project for forecasting store sales using time series analysis and external factors.
 
 ## Dataset
 
@@ -58,14 +58,3 @@ Store-level promotions – Items on promotion often see increased sales.
 2.) Advanced Time Series Models
 
 Using ARIMA Models that capture trends, seasonality, and autocorrelation in the sales data.
-
-## Project Structure
-
-```
-├── data/                   # Dataset files
-├── notebooks/              # Jupyter notebooks for analysis
-├── src/                    # Source code
-├── models/                 # Trained models
-├── requirements.txt        # Python dependencies
-└── README.md              # This file
-```
